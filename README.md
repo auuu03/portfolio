@@ -11,12 +11,12 @@ UI/UXデザインおよびクリエイティブテクノロジー（VR/XR、3DCG
 
 ##  Tools & Technologies
 - **Web Development:** HTML, CSS, GitHub Pages
-- **VR / 3DCG:** Unity, VRChat (Udon), Blender, Autodesk Maya
+- **VR / 3DCG:** Unity, VRChat (Udon), Blender, Maya
 - **Music / Audio:** Studio One, VOCALOID (UTAU), Fender Studio
 
 ##  Selected Works
 1. **夏の心** - 360° VR Music Video (Unity / Blender / Music)
-2. **3D Animation** - Short Story (Autodesk Maya)
+2. **3D Animation** - Short Story (Maya)
 3. **Audio Design & Mix** - Projection Mapping & Vocal Mix
 
 ##  Author
