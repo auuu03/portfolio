@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>夏の心 - MORI YUUHI</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; background-color: #FAFAFA; color: #333333; line-height: 1.8; margin: 0; padding: 0; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 60px 20px; }
+        h1, h2, h3, h4 { color: #111111; }
+        .back-link { display: inline-block; margin-bottom: 40px; color: #666666; text-decoration: none; font-weight: bold; transition: color 0.3s; }
+        .back-link:hover { color: #111111; }
+        .page-header { margin-bottom: 40px; border-bottom: 2px solid #EEEEEE; padding-bottom: 20px; }
+        .page-header h1 { font-size: 2rem; margin-bottom: 10px; }
+        .tags { font-size: 0.9rem; color: #0052FF; font-weight: bold; margin-bottom: 20px; }
+        .project-section { background: #FFFFFF; border-radius: 12px; padding: 40px; margin-bottom: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
+        
+        /* 動画埋め込み用（16:9） */
+        .media-container { position: relative; width: 100%; padding-bottom: 56.25%; background-color: #E0E0E0; border-radius: 8px; overflow: hidden; margin-bottom: 30px; }
+        .media-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+        
+        .description h4 { margin: 30px 0 10px 0; font-size: 1.1rem; border-left: 4px solid #111; padding-left: 10px; }
+        .description p { color: #555555; margin-bottom: 20px; }
+	/* 制作プロセス用のグリッドデザイン */
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .process-card {
+            background: #F8F9FA;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #EEEEEE;
+        }
+        .process-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            border-bottom: 1px solid #EEEEEE;
+        }
+        .process-text {
+            padding: 20px;
+        }
+        .process-text h5 {
+            margin: 0 0 10px 0;
+            font-size: 1.05rem;
+            color: #111;
+        }
+        .process-text p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #555;
+            line-height: 1.7;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="index.html" class="back-link">← ホームに戻る</a>
+
+    <div class="page-header">
+        <h1>夏の心 — 360° VR Music Video</h1>
+        <div class="tags">Unity / VRChat / Blender / Fender Studio / UTAU</div>
+    </div>
+
+    <div class="project-section">
+        <!-- 動画埋め込みエリア（YouTubeの埋め込みコードに差し替えてください） -->
+        <div class="media-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oUkFJZj6vYU?si=8Gr2sBILZXFqVBOu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+        </div>
+
+       <div class="description">
+            <h4>コンセプト：「曲の世界に入り込む」没入型音楽体験</h4>
+            <p>単なる映像鑑賞ではなく、視聴者自身が曲の世界の当事者となる体験を目指した卒業制作です。楽曲制作から3Dモデリング、VR空間構築、インタラクション制御までを一貫して一人で担当しました。</p>
+            
+            <h4>没入感を高めるための設計</h4>
+            <p><strong>1. 鑑賞環境の最適化：</strong>PCスペックに依存せず高品質な空間表現を実現するため、単体アプリではなくVRChatワールドとして構築。<br>
+            <strong>2. VR酔いの軽減：</strong>移動速度やカメラ感度を細かく調整し、ストレスフリーな操作性を設計。<br>
+            <strong>3. ライティング：</strong>360度どこを見ても世界観が途切れないよう、視点移動によって破綻しない自然な光と影の演出を構築しました。</p>
+
+            <h4>制作プロセスと実装</h4>
+            <p>音楽表現からVR特有の空間最適化まで、各ツールを横断して体験を作り込みました。</p>
+            
+            <!-- 4枚の写真と説明のグリッド -->
+            <div class="process-grid">
+                
+                <!-- 1枚目：UTAU -->
+                <div class="process-card">
+                    <img src="utau.png" alt="UTAU作業画面" class="process-img">
+                    <div class="process-text">
+                        <h5>1. Vocal Edit (UTAU)</h5>
+                        <p>UTAUを用いてボーカルを作成。機械的に聞こえないよう、ビブラートの揺れやコーラスの重なりなど、細部の表現までこだわって調声しました。</p>
+                    </div>
+                </div>
+
+                <!-- 2枚目：DAW (Fender Studio / Studio One) -->
+                <div class="process-card">
+                    <img src="studio.png" alt="Fender Studio作業画面" class="process-img">
+                    <div class="process-text">
+                        <h5>2. Recording & Mix</h5>
+                        <p>Fender Studioの作業画面。ギターとベースは自身で弾いたものを録音し、ドラムは打ち込みで構築。そこにUTAUのボーカルを合わせて全体をミックスしました。</p>
+                    </div>
+                </div>
+
+                <!-- 3枚目：Blender -->
+                <div class="process-card">
+                    <img src="blender.png" alt="Blender作業画面" class="process-img">
+                    <div class="process-text">
+                        <h5>3. 3D Modeling (Blender)</h5>
+                        <p>Blenderでの駅の作成画面。一から3Dモデリングを行い、楽曲の持つ雰囲気に合ったエモーショナルな情景を目指して形にしました。</p>
+                    </div>
+                </div>
+
+                <!-- 4枚目：Unity -->
+                <div class="process-card">
+                    <img src="unity.png" alt="Unity作業画面" class="process-img">
+                    <div class="process-text">
+                        <h5>4. VR World Building (Unity)</h5>
+                        <p>Unityですべてを統合したプロジェクト画面。自作した駅のモデルや、フリーの3Dモデルを用いて世界観を作り、曲の進行に合わせた視点移動やテロップ、空間演出を実装しました。</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>    </div>
+</div>
+
+</body>
+</html>

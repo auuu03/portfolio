@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MORI YUUHI - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            background-color: #FAFAFA;
+            color: #333333;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        h1, h2, h3 {
+            color: #111111;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+        .header p {
+            color: #666666;
+            font-size: 1.1rem;
+        }
+        .profile {
+            background: #FFFFFF;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+            margin-bottom: 80px;
+        }
+        .section-title {
+            font-size: 1.8rem;
+            border-bottom: 2px solid #EEEEEE;
+            padding-bottom: 10px;
+            margin-bottom: 40px;
+        }
+        .work-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-bottom: 80px;
+        }
+        .card {
+            background: #FFFFFF;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        /* 画像をカードの横幅いっぱいに合わせて綺麗に切り取る設定 */
+        .card-img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+        }
+        .card-content {
+            padding: 24px;
+        }
+        .card-content h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.3rem;
+        }
+        .tags {
+            font-size: 0.85rem;
+            color: #0052FF;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .description {
+            font-size: 0.95rem;
+            color: #555555;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 8px 16px;
+            background: #111;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>MORI YUUHI</h1>
+    </div>
+
+    <div class="profile">
+        <h2>Profile</h2>
+        <p><strong>森 雄飛</strong><br>関西大学大学院 総合情報学研究科 知識情報学専攻 在学中</p>
+        <p>情報技術（VR/XR、AI）とクリエイティブ表現（音楽、映像、3DCG）を横断して学び、双方を組み合わせた「没入感のある体験設計」を研究・制作しています。見た目の美しさだけでなく、ユーザーが直感的に楽しめるUI/UXや、空間全体を通した体験の構築を目指しています。</p>
+    </div>
+
+    <h2 class="section-title">Works</h2>
+    <div class="work-grid">
+        
+        <!-- 作品1：夏の心 -->
+        <div class="card">
+            <!-- ★ここに画像ファイル名を入れる★ -->
+            <img src="natsu.jpg" alt="夏の心" class="card-img">
+            
+            <div class="card-content">
+                <h3>夏の心 — 360° VR MV</h3>
+                <div class="tags">Unity / VRChat / Blender / Fender Studio</div>
+                <p class="description">“曲の世界に入り込む” 音と空間の調和による没入型音楽体験。VR酔い対策や360度視界の最適化など、UX設計にこだわった卒業制作です。</p>
+                <a href="natsunokokoro.html" class="btn">詳細を見る</a>
+            </div>
+        </div>
+
+       
+
+        <!-- 作品3：音楽制作 -->
+        <div class="card">
+            <!-- ★ここに画像ファイル名を入れる★ -->
+            <img src="audio.jpg" alt="Audio Design" class="card-img">
+            
+            <div class="card-content">
+                <h3>Audio Design & Mix</h3>
+                <div class="tags">Fender Studio</div>
+                <p class="description">神社プロジェクションマッピングへの楽曲提供や、ボーカルMixなど。映像演出や依頼者の意図を汲み取り、音響面から体験を設計しました。</p>
+                <a href="audio.html" class="btn">詳細を見る</a>
+            </div>
+        </div>
+
+	<!-- 作品2：藍二乗 -->
+        <div class="card">
+            <!-- ★ここに画像ファイル名を入れる★ -->
+            <img src="ainijou.jpg" alt="藍二乗" class="card-img">
+            
+            <div class="card-content">
+                <h3>3D Animation</h3>
+                <div class="tags">Maya</div>
+                <p class="description">3DCGアニメーションによる空間表現。光の演出（ライティング）と自然なモノの動きの設計に注力しました。</p>
+                <a href="ainijou.html" class="btn">詳細を見る</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
