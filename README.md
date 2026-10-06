@@ -3,7 +3,7 @@
 UI/UXデザインおよびクリエイティブテクノロジー（VR/XR、3DCG、音響設計）の作品をまとめたWebポートフォリオです。
 
 ##  Live Website
-[ポートフォリオサイトを見る](https://auuu03.github.io/portfolio/)
+[ポートフォリオサイト](https://auuu03.github.io/portfolio/)
 
 ##  Concept
 **「技術と表現を組み合わせ、人の心を動かす体験をつくる」**
