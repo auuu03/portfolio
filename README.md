@@ -1,6 +1,6 @@
 # MORI YUUHI - Portfolio
 
-UI/UXデザインおよびクリエイティブテクノロジー（VR/XR、3DCG、音響設計）の作品をまとめたWebポートフォリオです。
+VR/XR、3DCG、音響設計の作品をまとめたWebポートフォリオです。
 
 ##  Live Website
 [ポートフォリオサイト](https://auuu03.github.io/portfolio/)
