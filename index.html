@@ -59,6 +59,8 @@
             overflow: hidden;
             box-shadow: 0 4px 20px rgba(0,0,0,0.05);
             transition: transform 0.3s ease;
+			display: flex;
+            flex-direction: column;
         }
         .card:hover {
             transform: translateY(-5px);
@@ -72,13 +74,16 @@
         }
         .card-content {
             padding: 24px;
+			display: flex;
+            flex-direction: column;
+            flex-grow: 1;
         }
         .card-content h3 {
             margin: 0 0 10px 0;
             font-size: 1.3rem;
         }
         .tags {
-            font-size: 0.85rem;
+            font-size: 0.75rem;
             color: #0052FF;
             margin-bottom: 15px;
             font-weight: bold;
@@ -86,16 +91,18 @@
         .description {
             font-size: 0.95rem;
             color: #555555;
+			margin-bottom: 20px;
         }
         .btn {
             display: inline-block;
-            margin-top: 15px;
+            margin-top: auto;
             padding: 8px 16px;
             background: #111;
             color: #fff;
             text-decoration: none;
             border-radius: 20px;
             font-size: 0.9rem;
+			align-self: flex-start;
         }
     </style>
 </head>
@@ -117,7 +124,7 @@
         
         <!-- 作品1：夏の心 -->
         <div class="card">
-            <!-- ★ここに画像ファイル名を入れる★ -->
+            
             <img src="natsu.jpg" alt="夏の心" class="card-img">
             
             <div class="card-content">
@@ -130,9 +137,9 @@
 
        
 
-        <!-- 作品3：音楽制作 -->
+        <!-- 作品2：音楽制作 -->
         <div class="card">
-            <!-- ★ここに画像ファイル名を入れる★ -->
+            
             <img src="audio.jpg" alt="Audio Design" class="card-img">
             
             <div class="card-content">
@@ -143,9 +150,9 @@
             </div>
         </div>
 
-	<!-- 作品2：藍二乗 -->
+	<!-- 作品2：3Danimation -->
         <div class="card">
-            <!-- ★ここに画像ファイル名を入れる★ -->
+            
             <img src="ainijou.jpg" alt="藍二乗" class="card-img">
             
             <div class="card-content">
