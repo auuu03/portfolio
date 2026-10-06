@@ -15,7 +15,7 @@ UI/UXデザインおよびクリエイティブテクノロジー（VR/XR、3DCG
 - **Music / Audio:** Studio One, VOCALOID (UTAU), Fender Studio
 
 ##  Selected Works
-1. **夏の心** - 360° VR Music Video (Unity / Blender / Music)
+1. **夏の心** - 360° VR Music Video (Unity / Blender / Fender Studio / VOCALOID (UTAU))
 2. **3D Animation** - Short Story (Maya)
 3. **Audio Design & Mix** - Projection Mapping & Vocal Mix
 
